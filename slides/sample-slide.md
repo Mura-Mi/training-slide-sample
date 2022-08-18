@@ -4,7 +4,11 @@ description: An example slide deck created by Marp CLI
 author: Takuya "Mura-Mi" Murakami
 ---
 
-# Java コードがきれいに表示できます
+# サンプルスライド <!-- markdownlint-disable MD025 -->
+
+---
+
+## Java コードがきれいに表示できます
 
 Marp を利用することで、Java のコードがキレイにハイライトされます
 
@@ -18,17 +22,18 @@ public class SampleSlide {
 
 ---
 
-# Shell もきれいに表示できます
+## Shell もきれいに表示できます
 
 ```bash
 $ echo "Hello, World!"
 $ javac SampleSlide.java
 $ java SampleSlide
+Hello, World!
 ```
 
 ---
 
-# 箇条書きで説明を書きます
+## 箇条書きで説明を書きます
 
 * このスライドは、Marp CLI で作成されたスライドです
 * 箇条書きは、Markdown の `*` で記載すれば大丈夫！

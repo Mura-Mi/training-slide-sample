@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "marp":  "marp --pdf --input-dir slides --output out"
+    "marp": "marp --pdf --input-dir slides --output out",
+    "lint": "markdownlint-cli2 slides",
+    "fix-markdown":  "markdownlint-cli2-fix slides"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,8 @@
   },
   "homepage": "https://github.com/Mura-Mi/training-slide-sample#readme",
   "devDependencies": {
-    "@marp-team/marp-cli": "^2.1.2"
+    "@marp-team/marp-cli": "^2.1.2",
+    "markdownlint": "^0.26.2",
+    "markdownlint-cli2": "^0.5.1"
   }
 }
