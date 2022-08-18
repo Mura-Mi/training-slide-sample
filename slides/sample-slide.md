@@ -10,7 +10,7 @@ author: Takuya "Mura-Mi" Murakami
 
 ## Java コードがきれいに表示できます
 
-Marp を利用することで、Java のコードがキレイにハイライトされます
+Marpを利用することで、Javaのコードがキレイにハイライトされます。
 
 ```java
 public class SampleSlide {
@@ -35,6 +35,6 @@ Hello, World!
 
 ## 箇条書きで説明を書きます
 
-* このスライドは、Marp CLI で作成されたスライドです
-* 箇条書きは、Markdown の `*` で記載すれば大丈夫！
-* もう PowerPoint なんていらなかったんや!!
+* このスライドは、Marp CLIで作成されたスライドです
+* 箇条書きは、Markdownの `*` で記載すれば大丈夫
+* もうPowerPointなんて要らないかも
