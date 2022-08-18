@@ -2,6 +2,8 @@
 title: Sample Slide (meta data title)
 description: An example slide deck created by Marp CLI
 author: Takuya "Mura-Mi" Murakami
+paginate: true
+footer: © 2022 Takuya "Mura-Mi" Murakami
 ---
 
 # サンプルスライド <!-- markdownlint-disable MD025 -->
